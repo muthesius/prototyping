@@ -694,7 +694,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 #if ENABLED(MANUAL_HOME_POSITIONS)
   #define MANUAL_X_HOME_POS 0
   #define MANUAL_Y_HOME_POS 0
-  #define MANUAL_Z_HOME_POS 250 // For delta: Distance between nozzle and print surface after homing.
+  #define MANUAL_Z_HOME_POS 280 // For delta: Distance between nozzle and print surface after homing.
 #endif
 
 // @section movement
