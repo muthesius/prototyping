@@ -165,7 +165,7 @@ Here are some standard links for getting your machine calibrated:
 // to check that the wiring to the thermistor is not broken.
 // Otherwise this would lead to the heater being powered on all the time.
 #define HEATER_0_MINTEMP _CERAMIC_DUMMY_TEMP
-#define HEATER_1_MINTEMP 5
+#define HEATER_1_MINTEMP _CERAMIC_DUMMY_TEMP
 #define HEATER_2_MINTEMP 5
 #define HEATER_3_MINTEMP 5
 #define BED_MINTEMP 5
@@ -174,7 +174,7 @@ Here are some standard links for getting your machine calibrated:
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
 #define HEATER_0_MAXTEMP _CERAMIC_DUMMY_TEMP
-#define HEATER_1_MAXTEMP 275
+#define HEATER_1_MAXTEMP _CERAMIC_DUMMY_TEMP
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
 #define BED_MAXTEMP 150
